@@ -1,0 +1,22 @@
+all:
+  children:
+    routers:
+      hosts:
+        R1:
+          ansible_host: 10.1.11.2
+          ansible_network_os: cisco.ios.ios
+          ansible_connection: network_cli
+        R2:
+          ansible_host: 10.0.12.2
+          ansible_network_os: cisco.ios.ios
+          ansible_connection: network_cli
+        R3:
+          ansible_host: 10.0.13.3
+          ansible_network_os: cisco.ios.ios
+          ansible_connection: network_cli
+    nat_gw:
+      hosts:
+        NAT-GW:
+          ansible_host: 192.168.80.129
+          ansible_network_os: cisco.ios.ios
+          ansible_connection: network_cli

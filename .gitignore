@@ -1,0 +1,21 @@
+# Vault password file
+.vault_pass
+~/.vault_pass
+
+# Python
+*.pyc
+__pycache__/
+.venv/
+
+# Ansible retry files
+*.retry
+
+# AWS credentials
+.aws/
+*.pem
+*.key
+
+# Editor files
+.vscode/
+*.swp
+*.swo

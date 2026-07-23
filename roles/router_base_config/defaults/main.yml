@@ -1,0 +1,8 @@
+---
+ntp_server: "pool.ntp.org"
+banner_text: |
+  ******************************************
+  * Authorized Access Only                 *
+  * Unauthorized access is prohibited      *
+  ******************************************
+

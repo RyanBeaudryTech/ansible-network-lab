@@ -1,0 +1,6 @@
+---
+- name: Apply base configuration to all routers
+  hosts: routers
+  gather_facts: false
+  roles:
+    - router_base_config
